@@ -1,0 +1,34 @@
+# Core deep learning
+torch==2.1.0
+torchvision==0.16.0
+
+# Numerical / scientific
+numpy==1.24.4
+scipy==1.10.1
+scikit-learn==1.3.2
+
+# Config & utilities
+easydict==1.13
+PyYAML==6.0.2
+tqdm==4.65.2
+addict==2.4.0
+termcolor==2.4.0
+tabulate==0.9.0
+
+# Vision & image processing
+timm==1.0.15
+opencv-python==4.11.0.86
+Pillow==10.4.0
+pycocotools==2.0.7
+
+# mmcv stack (for ViT encoder and SFP neck)
+mmcv-full==1.7.2
+mmengine==0.10.7
+
+# Tracking / evaluation
+motmetrics==1.4.0
+filterpy==1.4.5
+
+# Visualisation (optional)
+matplotlib==3.5.3
+tensorboardX==2.6.2.2
