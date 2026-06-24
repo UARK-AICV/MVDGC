@@ -3,7 +3,7 @@
 **3D Bird's-Eye-View & 2D Image-View Person Detection from Multiple Cameras**
 
 <p align="center">
-  <img src="abstract.pdf" width="900" alt="MVCyDe Framework Overview"/>
+  <img src="abstract.png" width="900" alt="MVCyDe Framework Overview"/>
 </p>
 
 > **MVCyDe** detects people jointly in bird's-eye-view (BEV) ground space and per-camera image space using a set of learnable 3D cylindrical queries. Each query is initialized across the BEV plane, projected into every camera view to sample multi-view features via sparse deformable attention, and iteratively refined to produce accurate ground-plane positions and per-view bounding boxes — all in a single forward pass, with no depth estimation or explicit 3D reconstruction.
